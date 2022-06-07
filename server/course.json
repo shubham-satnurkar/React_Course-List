@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "index": 1,
+      "title": "Web Designing"
+    },
+    {
+      "id": 2,
+      "index": 2,
+      "title": "Web Development"
+    },
+    {
+      "id": 3,
+      "index": 3,
+      "title": "Graphic Designing"
+    },
+    {
+      "id": 4,
+      "index": 4,
+      "title": "Front End Development"
+    },
+    {
+      "id": 5,
+      "index": 5,
+      "title": "Back End Development"
+    }
+  ],
+  "enquiries": [
+    {
+      "name": "Shubham",
+      "age": "25",
+      "months": "8",
+      "courseId": "2",
+      "id": 1
+    },
+    {
+      "name": "ShubhamSatnurkar",
+      "age": "26",
+      "months": "10",
+      "courseId": "1",
+      "id": 2
+    },
+    {
+      "name": "Prashant",
+      "age": "23",
+      "months": "8",
+      "courseId": "3",
+      "id": 3
+    },
+    {
+      "name": "Rakesh",
+      "age": "21",
+      "months": "6",
+      "courseId": "5",
+      "id": 4
+    }
+  ]
+}
