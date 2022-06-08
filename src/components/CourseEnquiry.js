@@ -98,8 +98,9 @@ export default function CourseEnquiry() {
         <>
             <div className="container">
                 <div className='row'>
-                    <div className='col-12'>
-                        <form onSubmit={postAddEnquiry}>
+                    <div className='col-8 mx-auto'>
+                        <form onSubmit={postAddEnquiry} className="shadow p-5">
+                            <h3 className='text-center mb-4'>Course Enquiry Form</h3>
                             <div className='form-group mb-3'>
                                 <label>Full Name</label>
                                 <input type="text" className="form-control" name="name" onChange={handler} onBlur={validate1} />
@@ -117,7 +118,9 @@ export default function CourseEnquiry() {
                             </div>
 
 
-                            <input type="submit" value="Add" className="btn btn-success mt-3" />
+                            <div className='form-group text-center'>
+                                <input type="submit" value="Add Enquiry" className="btn btn-success mt-3" />
+                            </div>
 
 
                         </form>
